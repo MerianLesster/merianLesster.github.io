@@ -1,383 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Merian Portfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Merian Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/circle-cropped-me.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/circle-cropped-me.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"> -->
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"> -->
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Personal - v4.0.1
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body onload="OnLoadFunction()">
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-      <h2>
-        <img height="150px" width="150px" src="assets/img/circle-cropped-me2.png" alt="" class="img-fluid">
-      </h2>
-      <h1><a href="index.html">Merian Lesster</a></h1>
-      
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>
-        <p>I'm a passionate</p>
-      </h2>
-        <h2 style="margin-top: 0%;">
-         <p><<span style="color: #11dbcf; background-color: rgba(0,0,0,0.3);" class="typed" data-typed-items="Full-stack Developer, Web Developer, Desktop Developer, Mobile Developer, Game Developer"></span>/></p>
+  <body onload="OnLoadFunction()">
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="container">
+        <h2>
+          <img
+            height="150px"
+            width="150px"
+            src="assets/img/circle-cropped-me2.png"
+            alt=""
+            class="img-fluid"
+          />
         </h2>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li onclick="AddToURL('home');return false;"><a id="homelink" class="nav-link active" href="#header">Home</a></li>
-          <li onclick="AddToURL('about');return false;"><a id="aboutlink" class="nav-link" href="#about" >About</a></li>
-          <li onclick="AddToURL('resume');return false;"><a id="resumelink" class="nav-link" href="#resume" >Resume</a></li>
-          <!-- <li onclick="AddToURL('services');return false;"><a id="serviceslink" class="nav-link" href="#services" >Services</a></li> -->
-          <li onclick="AddToURL('portfolio');return false;"><a id="portfoliolink" class="nav-link" href="#portfolio" >Portfolio</a></li>
-          <li onclick="AddToURL('contact');return false;"><a id="contactlink" class="nav-link" href="#contact" >Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <h1><a href="index.html">Merian Lesster</a></h1>
 
-      <div class="social-links">
-        <a target="_blank" href="https://www.linkedin.com/in/merian-lesster/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a target="_blank" href="https://github.com/MerianLesster" class="github"><i class="bi bi-github"></i></a>
-        <a target="_blank" href="https://www.instagram.com/merian_27/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a target="_blank" href="https://www.facebook.com/merian.damian/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a target="_blank" href="https://twitter.com/MLesster" class="twitter"><i class="bi bi-twitter"></i></a>
-      </div>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <h2>
+          <p>I'm a passionate</p>
+        </h2>
+        <h2 style="margin-top: 0%">
+          <p>
+            <span
+              style="color: #11dbcf; background-color: rgba(0, 0, 0, 0.3)"
+              class="typed"
+              data-typed-items="Front-end Developer, Back-end Developer, Web Developer, Mobile Developer, Game Developer"
+            ></span
+            >/>
+          </p>
+        </h2>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li onclick="AddToURL('home');return false;">
+              <a id="homelink" class="nav-link active" href="#header">Home</a>
+            </li>
+            <li onclick="AddToURL('about');return false;">
+              <a id="aboutlink" class="nav-link" href="#about">About</a>
+            </li>
+            <li onclick="AddToURL('resume');return false;">
+              <a id="resumelink" class="nav-link" href="#resume">Resume</a>
+            </li>
+            <!-- <li onclick="AddToURL('services');return false;"><a id="serviceslink" class="nav-link" href="#services" >Services</a></li> -->
+            <li onclick="AddToURL('portfolio');return false;">
+              <a id="portfoliolink" class="nav-link" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li onclick="AddToURL('contact');return false;">
+              <a id="contactlink" class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
 
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/itsme2.jpg" class="img-fluid" alt="">
+        <div class="social-links">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/merian-lesster/"
+            class="linkedin"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/MerianLesster"
+            class="github"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/merian_27/"
+            class="instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/merian.damian/"
+            class="facebook"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a target="_blank" href="https://twitter.com/MLesster" class="twitter"
+            ><i class="bi bi-twitter"></i
+          ></a>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Computer Science undergraduate</h3>
-          <p class="font-italic" style="text-align: justify;">
-            Young passionate Computer Science fresh graduate, who possesses great interpersonal skills, an eagerness to learn new skills, and adaptability in using creative approaches to solve problems while managing time effectively. Aims to pursue a stimulating career with a progressive organization that provides opportunities for further development in my knowledge and skills towards becoming a professional Software Developer.          
-            <div class="row" style="margin-top: 40px;">
-<!--               <div class="col-lg-6">
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Learn more about me</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/itsme2.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Engineer</h3>
+            <p class="font-italic" style="text-align: justify">
+              Young passionate Software Engineer, who possesses great
+              interpersonal skills, an eagerness to learn new skills, and
+              adaptability in using creative approaches to solve problems while
+              managing time effectively. Aims to pursue a stimulating career
+              with a progressive organization that provides opportunities for
+              further development in my knowledge and skills towards becoming a
+              professional Software Developer.
+            </p>
+            <div class="row" style="margin-top: 40px">
+              <!--               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27<sup>th</sup> June 1999</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+94 721 936 656</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Colombo, Sri Lanka</span></li>
                 </ul>
               </div> -->
-              <div class="col-lg-6">
+              <div class="col-lg-12">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc in Computer Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>merianlesster27.ml@gmail.com</span></li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>23</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                    <span> BSc (Hons) in Computer Science - First Class </span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>merianlesster27.ml@gmail.com</span>
+                  </li>
                 </ul>
               </div>
-          </div>
-          <!-- <p>
+            </div>
+            <!-- <p>
             Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
           </p> -->
+          </div>
         </div>
       </div>
+      <!-- End About Me -->
 
-    </div><!-- End About Me -->
+      <!-- ======= Counts ======= -->
+      <div class="counts container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="5"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
 
-    <!-- ======= Counts ======= -->
-    <div class="counts container">
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-briefcase"></i>
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="2"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Years Of Work Experience</p>
+            </div>
+          </div>
 
-      <div class="row">
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="1252"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
 
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-briefcase"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Years Of Work Experience</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1252" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div><!-- End Counts -->
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">HTML <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">CSS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">Node.js <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Nuxt.js <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Vue.js <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">C# <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Java <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Python <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">C++ <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Swift <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">React <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">React Native <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Angular <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Flutter <i class="val">65%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">AWS <i class="val">50%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">ASP.NET Core <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">MongoDB <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">SQL <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Unity <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Unreal Engine <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3">
-          <div class="progress">
-            <span class="skill">JQuery <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Git <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Adobe XD <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="5"
+                data-purecounter-duration="1"
+                class="purecounter"
+              ></span>
+              <p>Awards</p>
             </div>
           </div>
         </div>
       </div>
+      <!-- End Counts -->
 
-    </div><!-- End Skills -->
+      <!-- ======= Skills  ======= -->
+      <div class="skills container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
 
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
+        <div class="row skills-content">
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">HTML <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
 
-      <div class="section-title">
-        <h2>Interests</h2>
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">Node.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Nuxt.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Vue.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">C# <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Java <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Python <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">C++ <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Swift <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">React Native<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">React <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Angular <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Flutter <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">AWS <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">ASP.NET Core <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">MongoDB <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">SQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Unity <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Unreal Engine <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="progress">
+              <span class="skill">JQuery <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Git <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Adobe XD <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- End Skills -->
 
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-basketball-line" style="color: #CF5300;"></i>
-            <h3>Sports</h3>
-          </div>
+      <!-- ======= Interests ======= -->
+      <div class="interests container">
+        <div class="section-title">
+          <h2>Interests</h2>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #e80368;"></i>
-            <h3>Music</h3>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-basketball-line" style="color: #cf5300"></i>
+              <h3>Sports</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-music-2-line" style="color: #5578ff;"></i>
-            <h3>Singing</h3>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-disc-line" style="color: #e80368"></i>
+              <h3>Music</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-book-open-line" style="color: #fff461;"></i>
-            <h3>Reading</h3>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-music-2-line" style="color: #5578ff"></i>
+              <h3>Singing</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-book-open-line" style="color: #fff461"></i>
+              <h3>Reading</h3>
+            </div>
           </div>
         </div>
       </div>
+      <!-- End Interests -->
 
-    </div><!-- End Interests -->
-
-    <!-- ======= Testimonials =======  Ask Manoj, Jesh, Dilantha, Nadeeka ....................-->
-    <!-- <div class="testimonials container">
+      <!-- ======= Testimonials =======  Ask Manoj, Jesh, Dilantha, Nadeeka ....................-->
+      <!-- <div class="testimonials container">
 
       <div class="section-title">
         <h2>Testimonials</h2>
@@ -457,22 +688,21 @@
       <div class="owl-carousel testimonials-carousel">
       </div>
     </div> -->
-    <!-- End Testimonials  -->
+      <!-- End Testimonials  -->
+    </section>
+    <!-- End About Section -->
 
-  </section><!-- End About Section -->
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" style="height: 900px">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Check My Resume</p>
+        </div>
 
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container" style="height: 900px;">
-
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
-      </div>
-
-      <div class="row">
-        <div id="merianResume"></div>
-        <!-- <object
+        <div class="row">
+          <div id="merianResume"></div>
+          <!-- <object
           data="assets/files/Merian Lesster_Resume.pdf"
           type="application/pdf"
           width="100%"
@@ -486,7 +716,7 @@
               <a href="https://example.com/test.pdf">Download the PDF</a>.</p>
           </iframe>
         </object> -->
-        <!-- <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
             <h4>Bachelor of Science in Computer Science</h4>
@@ -730,14 +960,13 @@
             </p>
           </div>
         </div> -->
-        
+        </div>
       </div>
+    </section>
+    <!-- End Resume Section -->
 
-    </div>
-  </section><!-- End Resume Section -->
-
-  <!-- ======= Services Section ======= -->
-  <!-- <section id="services" class="services">
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
     <div class="container">
 
       <div class="section-title">
@@ -798,247 +1027,465 @@
 
     </div>
   </section> -->
-  <!-- End Services Section -->
+    <!-- End Services Section -->
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>My Works</p>
+        </div>
 
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-mobileapp">Mobile App</li>
+              <li data-filter=".filter-website">Website</li>
+              <li data-filter=".filter-design">Design</li>
+              <li data-filter=".filter-desktopapp">Desktop App</li>
+              <li data-filter=".filter-game">Game</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-desktopapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('finance').click()"
+            >
+              <img
+                src="assets/img/Merian/PersonalFinancePrediction.PNG"
+                class="img-fluid"
+                alt="Personal-Finance-Prediction-img"
+              />
+              <div class="portfolio-info">
+                <h4>Personal financial management and prediction tool</h4>
+                <p>Desktop App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="finance"
+                    href="finance-prediction.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('xplorayl-design').click()"
+            >
+              <img
+                src="assets/img/Merian/explo_wall.PNG"
+                class="img-fluid"
+                alt="xplorayl-design-img"
+              />
+              <div class="portfolio-info">
+                <h4>Xplorayl Design</h4>
+                <p>Design</p>
+                <div class="portfolio-links">
+                  <a
+                    id="xplorayl-design"
+                    href="xplorayl-design.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('price-finder').click()"
+            >
+              <img
+                src="assets/img/Merian/priceFinderCover.PNG"
+                class="img-fluid"
+                alt="price-finder-img"
+              />
+              <div class="portfolio-info">
+                <h4>Price Finder</h4>
+                <p>Mobile App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="price-finder"
+                    href="price-finder.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-website">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('xplorayl-web').click()"
+            >
+              <img
+                src="assets/img/Merian/xplorayl_web.PNG"
+                class="img-fluid"
+                alt="xplorayl-website-img"
+              />
+              <div class="portfolio-info">
+                <h4>Xplorayl Website</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a
+                    id="xplorayl-web"
+                    href="xplorayl-web.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-desktopapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('fishing-jeff').click()"
+            >
+              <img
+                src="assets/img/Merian/jeffs.PNG"
+                class="img-fluid"
+                alt="fishing-jeff-img"
+              />
+              <div class="portfolio-info">
+                <h4>Fishing supply store</h4>
+                <p>Desktop App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="fishing-jeff"
+                    href="fishing-jeff.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('color-mixer').click()"
+            >
+              <img
+                src="assets/img/Merian/colorPicker.PNG"
+                class="img-fluid"
+                alt="color-mixer-img"
+              />
+              <div class="portfolio-info">
+                <h4>RGB color mixer</h4>
+                <p>Mobile App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="color-mixer"
+                    href="color-mixer.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('utility-convertor').click()"
+            >
+              <img
+                src="assets/img/Merian/UtilityConverter.PNG"
+                class="img-fluid"
+                alt="color-mixer-img"
+              />
+              <div class="portfolio-info">
+                <h4>Utility Convertor App</h4>
+                <p>Mobile App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="utility-convertor"
+                    href="utility-convertor.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('spending-management').click()"
+            >
+              <img
+                src="assets/img/Merian/SpendingManagement.PNG"
+                class="img-fluid"
+                alt="color-mixer-img"
+              />
+              <div class="portfolio-info">
+                <h4>Spending Management App</h4>
+                <p>Mobile App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="spending-management"
+                    href="spending-management.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('game-trailer').click()"
+            >
+              <iframe
+                height="245"
+                width="100%"
+                src="https://www.youtube.com/embed/86yyHlS8N3k"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="portfolio-info">
+                <h4>Perpetuity Rivalry Game Trailer</h4>
+                <p>Game</p>
+                <div class="portfolio-links">
+                  <a
+                    id="game-trailer"
+                    href="game-trailer.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('public-library').click()"
+            >
+              <img
+                src="assets/img/Merian/public_library.PNG"
+                class="img-fluid"
+                alt="public-library-img"
+              />
+              <div class="portfolio-info">
+                <h4>Public Library</h4>
+                <p>Mobile App</p>
+                <div class="portfolio-links">
+                  <a
+                    id="public-library"
+                    href="public-library.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('game-play').click()"
+            >
+              <iframe
+                height="245"
+                width="100%"
+                src="https://www.youtube.com/embed/xpI8gmR5Pj8"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="portfolio-info">
+                <h4>Perpetuity Rivalry Level 1 Gameplay</h4>
+                <p>Game</p>
+                <div class="portfolio-links">
+                  <a
+                    id="game-play"
+                    href="game-play.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+            <div
+              class="portfolio-wrap"
+              style="cursor: pointer"
+              onclick="document.getElementById('game-play-unity').click()"
+            >
+              <iframe
+                height="245"
+                width="100%"
+                src="https://www.youtube.com/embed/-A6XAv5lSHg"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!-- <iframe height="245" width="100%" src="https://www.youtube.com/embed/xpI8gmR5Pj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							 -->
+              <div class="portfolio-info">
+                <h4>Mama Moods Serious Game</h4>
+                <p>Game</p>
+                <div class="portfolio-links">
+                  <a
+                    id="game-play-unity"
+                    href="game-play-unity.html"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="View More Details"
+                    ><i class="bx bx-show"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- End Portfolio Section -->
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-mobileapp">Mobile App</li>
-            <li data-filter=".filter-website">Website</li>
-            <li data-filter=".filter-design">Design</li>
-            <li data-filter=".filter-desktopapp">Desktop App</li>
-            <li data-filter=".filter-game">Game</li>
-          </ul>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Me</p>
         </div>
-      </div>
 
-      <div class="row portfolio-container">
+        <div class="row mt-2">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>My Address</h3>
+              <p>Western Colombo, Dehiwala, Sri Lanka</p>
+            </div>
+          </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-desktopapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('finance').click()">
-            <img src="assets/img/Merian/PersonalFinancePrediction.PNG" class="img-fluid" alt="Personal-Finance-Prediction-img">
-            <div class="portfolio-info">
-              <h4>Personal financial management and prediction tool</h4>
-              <p>Desktop App</p>
-              <div class="portfolio-links">
-                <a id="finance" href="finance-prediction.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/merian-lesster/"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://github.com/MerianLesster"
+                  class="github"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/merian_27/"
+                  class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/merian.damian/"
+                  class="facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://twitter.com/MLesster"
+                  class="twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('xplorayl-design').click()">
-            <img src="assets/img/Merian/explo_wall.PNG" class="img-fluid" alt="xplorayl-design-img">
-            <div class="portfolio-info">
-              <h4>Xplorayl Design</h4>
-              <p>Design</p>
-              <div class="portfolio-links">
-                <a id="xplorayl-design" href="xplorayl-design.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Me</h3>
+              <p>merianlesster27.ml@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Me</h3>
+              <p>+94 721 936 656</p>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('price-finder').click()">
-            <img src="assets/img/Merian/priceFinderCover.PNG" class="img-fluid" alt="price-finder-img">
-            <div class="portfolio-info">
-              <h4>Price Finder</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a id="price-finder" href="price-finder.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-website">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('xplorayl-web').click()">
-            <img src="assets/img/Merian/xplorayl_web.PNG" class="img-fluid" alt="xplorayl-website-img">
-            <div class="portfolio-info">
-              <h4>Xplorayl Website</h4>
-              <p>Website</p>
-              <div class="portfolio-links">
-                <a id="xplorayl-web" href="xplorayl-web.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-desktopapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('fishing-jeff').click()">
-            <img src="assets/img/Merian/jeffs.PNG" class="img-fluid" alt="fishing-jeff-img">
-            <div class="portfolio-info">
-              <h4>Fishing supply store</h4>
-              <p>Desktop App</p>
-              <div class="portfolio-links">
-                <a id="fishing-jeff" href="fishing-jeff.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('color-mixer').click()">
-            <img src="assets/img/Merian/colorPicker.PNG" class="img-fluid" alt="color-mixer-img">
-            <div class="portfolio-info">
-              <h4>RGB color mixer</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a id="color-mixer" href="color-mixer.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('utility-convertor').click()">
-            <img src="assets/img/Merian/UtilityConverter.PNG" class="img-fluid" alt="color-mixer-img">
-            <div class="portfolio-info">
-              <h4>Utility Convertor App</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a id="utility-convertor" href="utility-convertor.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('spending-management').click()">
-            <img src="assets/img/Merian/SpendingManagement.PNG" class="img-fluid" alt="color-mixer-img">
-            <div class="portfolio-info">
-              <h4>Spending Management App</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a id="spending-management" href="spending-management.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('game-trailer').click()">
-            <iframe height="245" width="100%" src="https://www.youtube.com/embed/86yyHlS8N3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="portfolio-info">
-              <h4>Perpetuity Rivalry Game Trailer</h4>
-              <p>Game</p>
-              <div class="portfolio-links">
-                <a id="game-trailer" href="game-trailer.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('public-library').click()">
-            <img src="assets/img/Merian/public_library.PNG" class="img-fluid" alt="public-library-img">
-            <div class="portfolio-info">
-              <h4>Public Library</h4>
-              <p>Mobile App</p>
-              <div class="portfolio-links">
-                <a id="public-library" href="public-library.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('game-play').click()">
-            <iframe height="245" width="100%" src="https://www.youtube.com/embed/xpI8gmR5Pj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							
-            <div class="portfolio-info">
-              <h4>Perpetuity Rivalry Level 1 Gameplay</h4>
-              <p>Game</p>
-              <div class="portfolio-links">
-                <a id="game-play" href="game-play.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-          <div class="portfolio-wrap" style="cursor: pointer;" onclick="document.getElementById('game-play-unity').click()">
-            <iframe height="245" width="100%" src="https://www.youtube.com/embed/-A6XAv5lSHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <iframe height="245" width="100%" src="https://www.youtube.com/embed/xpI8gmR5Pj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							 -->
-            <div class="portfolio-info">
-              <h4>Mama Moods Serious Game</h4>
-              <p>Game</p>
-              <div class="portfolio-links">
-                <a id="game-play-unity" href="game-play-unity.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="View More Details"><i class="bx bx-show"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-      
-    </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Western Colombo, Dehiwala, Sri Lanka</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a target="_blank" href="https://www.linkedin.com/in/merian-lesster/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              <a target="_blank" href="https://github.com/MerianLesster" class="github"><i class="bi bi-github"></i></a>
-              <a target="_blank" href="https://www.instagram.com/merian_27/" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a target="_blank" href="https://www.facebook.com/merian.damian/" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a target="_blank" href="https://twitter.com/MLesster" class="twitter"><i class="bi bi-twitter"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>merianlesster27.ml@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+94 721 936 656</p>
-          </div>
-        </div>
-      </div>
-
-<!--       <form action="forms/contactMe.php" method="post" role="form" class="php-email-form mt-4">
+        <!--       <form action="forms/contactMe.php" method="post" role="form" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1060,36 +1507,42 @@
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
       </form> -->
-      
-      <form role="form" class="php-email-form mt-4">
-        <div class="text-center"><a href="mailto:merianlesster27.ml@gmail.com">Send Me an Email</a></div>
-      </form>
 
+        <form role="form" class="php-email-form mt-4">
+          <div class="text-center">
+            <a href="mailto:merianlesster27.ml@gmail.com">Send Me an Email</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
     </div>
-  </section><!-- End Contact Section -->
 
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-  </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/js/pdfobject.js"></script>
+    <script>
+      PDFObject.embed(
+        "assets/files/Merian Lesster_Resume.pdf",
+        "#merianResume"
+      );
+    </script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/js/pdfobject.js"></script>
-  <script>PDFObject.embed("assets/files/Merian Lesster_Resume.pdf", "#merianResume");</script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
