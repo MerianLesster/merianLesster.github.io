@@ -273,6 +273,16 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
   .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .navbar ul li {
+    margin: 0;
+  }
+
+  #header.header-top .navbar:not(.navbar-mobile) ul {
     display: none;
   }
 }
